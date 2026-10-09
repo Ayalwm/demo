@@ -3,144 +3,244 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Kalon — Industrial &amp; Electrical Partner · Addis Ababa</title>
-  <meta name="description" content="Kalon Engineering & Trading PLC — request stock for cables, power tools, safety gear, lighting and industrial equipment. Sengatera, Addis Ababa." />
+  <title>Kalon Engineering &amp; Trading PLC — Addis Ababa</title>
+  <meta name="description" content="Quality engineering & electrical supplies in Sengatera, Addis Ababa. Tools, cables, safety, lighting and industrial equipment." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;600;700&family=Outfit:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+Ethiopic:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
+<body data-page="home">
   <a class="skip" href="#main">Skip to content</a>
 
+  <div class="topbar">
+    <div class="shell topbar-inner">
+      <div class="topbar-phones">
+        <a href="tel:+251911653468">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.98.35 1.94.66 2.87a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.21-1.23a2 2 0 0 1 2.11-.45c.93.31 1.89.53 2.87.66A2 2 0 0 1 22 16.92z"/></svg>
+          +251 911 65 34 68
+        </a>
+        <span class="topbar-sep" aria-hidden="true">|</span>
+        <a href="tel:+251921941111">+251 921 94 11 11</a>
+      </div>
+      <div class="topbar-address">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span data-i18n="topAddress">SengaTera, Worku Abeba Building, 2nd Floor</span>
+      </div>
+    </div>
+  </div>
+
   <header class="site-header">
-    <div class="shell header-inner">
-      <a class="logo" href="#top">
-        <span class="logo-mark">K</span>
-        <span class="logo-text">
-          <span class="logo-kalon" data-i18n="brandName">Kalon</span>
-          <span class="logo-sub" data-i18n="logoSub">Engineering &amp; Trading</span>
+    <div class="shell header-bar">
+      <a class="brand" href="#top">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path fill="#1b3a6b" d="M24 4c-6 8-14 10-18 12 8 2 14 8 18 16 4-8 10-14 18-16-4-2-12-4-18-12z"/>
+          <path fill="#ff6600" d="M24 14c-4 5-9 7-12 8 5 1 9 5 12 11 3-6 7-10 12-11-3-1-8-3-12-8z"/>
+          <path fill="#5ba4d9" d="M24 22c-2.5 3-5.5 4-7.5 4.5 3 .8 5.5 3 7.5 6.5 2-3.5 4.5-5.7 7.5-6.5-2-.5-5-1.5-7.5-4.5z"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name" data-i18n="brandName">Kalon</span>
+          <span class="brand-sub" data-i18n="logoSub">Engineering &amp; Trading PLC</span>
         </span>
       </a>
-
       <nav class="nav-desktop" aria-label="Primary">
-        <a href="#catalog" data-i18n="navCatalog">Catalog</a>
-        <a href="#how" data-i18n="navHow">How it works</a>
-        <a href="#brands" data-i18n="navBrands">Brands</a>
-        <a href="#visit" data-i18n="navVisit">Find us</a>
+        <a href="#top" data-nav="home" data-i18n="navHome">Home</a>
+        <a href="#products" data-nav="products" data-i18n="navProducts">Products</a>
+        <a href="#brands" data-nav="brands" data-i18n="navBrands">Brands</a>
+        <a href="#about" data-nav="about" data-i18n="navAbout">About Us</a>
+        <a href="#contact" data-nav="contact" data-i18n="navContact">Contact</a>
       </nav>
-
       <div class="header-actions">
-        <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch language">
-          <span data-lang-label>አማ</span>
-        </button>
-        <button type="button" class="btn btn-orange btn-sm" id="cartOpen" aria-controls="orderDrawer" aria-expanded="false">
-          <span data-i18n="navList">My list</span>
-          <span class="cart-badge" id="cartBadge" hidden>0</span>
-        </button>
+        <button type="button" class="lang-toggle" id="langToggle"><span data-lang-label>አማ</span></button>
+        <a class="icon-btn" href="#products" aria-label="Search products">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </a>
+        <a class="btn btn-orange btn-sm" href="#contact">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+          <span data-i18n="navQuote">Request a Quote</span>
+        </a>
         <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Menu">
           <span></span><span></span>
         </button>
       </div>
     </div>
-
     <nav class="nav-mobile" id="mobileNav" hidden>
-      <a href="#catalog" data-i18n="navCatalog">Catalog</a>
-      <a href="#how" data-i18n="navHow">How it works</a>
-      <a href="#brands" data-i18n="navBrands">Brands</a>
-      <a href="#visit" data-i18n="navVisit">Find us</a>
-      <button type="button" class="btn btn-orange" id="cartOpenMobile" data-i18n="navList">My list</button>
-      <a class="btn btn-ghost" href="tel:+251911653468" data-i18n="navCall">Call shop</a>
+      <a href="#top" data-nav="home" data-i18n="navHome">Home</a>
+      <a href="#products" data-nav="products" data-i18n="navProducts">Products</a>
+      <a href="#brands" data-nav="brands" data-i18n="navBrands">Brands</a>
+      <a href="#about" data-nav="about" data-i18n="navAbout">About Us</a>
+      <a href="#contact" data-nav="contact" data-i18n="navContact">Contact</a>
+      <a class="btn btn-orange" href="#contact" data-i18n="navQuote">Request a Quote</a>
     </nav>
   </header>
 
   <main id="main">
     <!-- HERO -->
-    <section class="hero" id="top">
-      <div class="hero-slash" aria-hidden="true"></div>
-      <div class="hero-grid" aria-hidden="true"></div>
-
-      <div class="shell hero-layout">
-        <div class="hero-copy">
-          <p class="hero-eyebrow" data-reveal data-i18n="heroEyebrow">Sengatera · Addis Ababa</p>
-          <h1 class="hero-title" data-reveal>
-            <span class="brand-kalon" data-i18n="brandName">Kalon</span>
-            <span class="hero-line2" data-i18n="heroTag">Your industrial &amp; electrical partner</span>
-          </h1>
-          <p class="hero-sub" data-reveal data-i18n="heroLine">
-            Build a stock list in seconds. We confirm price &amp; availability — then you pick up at the shop or we arrange delivery talk.
-          </p>
-          <div class="hero-cta" data-reveal>
-            <a class="btn btn-orange btn-lg" href="#catalog" data-i18n="ctaShop">Browse catalog</a>
-            <button type="button" class="btn btn-ghost btn-lg" id="heroListBtn" data-i18n="ctaList">Open my list</button>
-          </div>
-        </div>
-
-        <div class="hero-stage" data-reveal aria-hidden="true">
-          <div class="stage-card stage-a">
-            <div class="stage-visual v-drill"></div>
-            <span>Power tools</span>
-          </div>
-          <div class="stage-card stage-b">
-            <div class="stage-visual v-breaker"></div>
-            <span>Electrical</span>
-          </div>
-          <div class="stage-card stage-c">
-            <div class="stage-visual v-hat"></div>
-            <span>Safety</span>
-          </div>
+    <section class="hero-banner" id="top">
+      <div class="hero-banner-bg" style="background-image:url('assets/kalon-hero.jpg')" role="img" aria-label="Engineering tools and electrical supplies"></div>
+      <div class="hero-banner-fade" aria-hidden="true"></div>
+      <div class="shell hero-banner-content">
+        <p class="hero-kicker" data-i18n="heroKicker">Your trusted partner in industrial solutions</p>
+        <h1 data-i18n="heroTitle">Quality Engineering &amp; <em>Electrical Supplies</em> for a Stronger Tomorrow</h1>
+        <p class="hero-lead" data-i18n="heroLead">
+          We supply high-quality engineering tools, electrical components, safety equipment and industrial solutions — all in one place.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-orange btn-lg" href="#products">
+            <span data-i18n="ctaProducts">Explore Products</span>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn-outline btn-lg" href="#contact">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+            <span data-i18n="ctaQuote">Request a Quote</span>
+          </a>
         </div>
       </div>
     </section>
 
-    <div class="ticker" aria-hidden="true">
-      <div class="ticker-track" id="tickerTrack"></div>
-    </div>
-
-    <!-- HOW -->
-    <section class="section how" id="how">
-      <div class="shell">
-        <header class="section-head" data-reveal>
-          <p class="section-kicker" data-i18n="howKicker">Simple flow</p>
-          <h2 data-i18n="howTitle">From catalog to confirmation</h2>
-          <p data-i18n="howSub">No fake checkout. You request stock — Kalon confirms. Clear for both sides.</p>
-        </header>
-        <ol class="how-steps">
-          <li data-reveal style="--i:0">
-            <span class="step-num">01</span>
-            <h3 data-i18n="how1Title">Pick what you need</h3>
-            <p data-i18n="how1Desc">Filter cables, tools, safety, lighting, industrial — add to your list.</p>
-          </li>
-          <li data-reveal style="--i:1">
-            <span class="step-num">02</span>
-            <h3 data-i18n="how2Title">Send the request</h3>
-            <p data-i18n="how2Desc">Name, phone, optional note. One tap to WhatsApp the shop.</p>
-          </li>
-          <li data-reveal style="--i:2">
-            <span class="step-num">03</span>
-            <h3 data-i18n="how3Title">Get confirmation</h3>
-            <p data-i18n="how3Desc">You get a request ID. Kalon replies with price, stock, and pickup.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- CATALOG -->
-    <section class="section catalog" id="catalog">
-      <div class="shell">
-        <header class="section-head catalog-head" data-reveal>
+    <!-- VALUES -->
+    <section class="values values-split" aria-label="Why Kalon">
+      <div class="shell values-row">
+        <div class="value-item">
+          <div class="value-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
           <div>
-            <p class="section-kicker" data-i18n="catalogKicker">Stock board</p>
-            <h2 data-i18n="catalogTitle">Product catalog</h2>
-            <p data-i18n="catalogSub">Sample lines from what Kalon carries — add to your list, then request confirmation.</p>
+            <strong data-i18n="val1Title">Reliable Products</strong>
+            <span data-i18n="val1Desc">Top brands, genuine products, long-lasting quality.</span>
           </div>
-          <label class="search-wrap">
-            <span class="visually-hidden" data-i18n="searchLabel">Search</span>
-            <input type="search" id="productSearch" data-i18n-placeholder="searchPlaceholder" placeholder="Search ABB, cable, drill…" autocomplete="off" />
-          </label>
+        </div>
+        <div class="value-item">
+          <div class="value-icon alt" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <div>
+            <strong data-i18n="val2Title">Fast Delivery</strong>
+            <span data-i18n="val2Desc">Get your orders on time, every time.</span>
+          </div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+          </div>
+          <div>
+            <strong data-i18n="val3Title">Expert Support</strong>
+            <span data-i18n="val3Desc">Professional advice to help you find the right solution.</span>
+          </div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon alt" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9c.3.6.9 1 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+          </div>
+          <div>
+            <strong data-i18n="val4Title">One-Stop Solution</strong>
+            <span data-i18n="val4Desc">Tools, electrical, safety and industrial supplies — all in one place.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="shell about-grid">
+        <div>
+          <span class="section-kicker" data-i18n="aboutEyebrow">Who we are</span>
+          <h2 data-i18n="aboutTitle">Built for Ethiopian sites.</h2>
+        </div>
+        <div class="about-copy">
+          <p data-i18n="aboutP1">Kalon Engineering &amp; Trading PLC supplies electrical materials, power tools, safety gear, lighting and industrial equipment to contractors, workshops and project teams in Addis Ababa.</p>
+          <p data-i18n="aboutP2">From Sengatera we help you specify trusted brands and confirm stock before you travel — so pickup is faster and fewer trips are wasted.</p>
+          <ul class="about-points">
+            <li data-i18n="aboutPoint1">Electrical materials &amp; accessories</li>
+            <li data-i18n="aboutPoint2">Power tools &amp; site equipment</li>
+            <li data-i18n="aboutPoint3">Safety, lighting &amp; industrial gear</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section" id="capabilities" style="background:var(--bg);border-block:1px solid var(--line)">
+      <div class="shell">
+        <header class="section-head">
+          <span class="section-kicker" data-i18n="prodKicker">Catalog</span>
+          <h2 data-i18n="prodTitle">Products We Supply</h2>
+          <p data-i18n="prodSub">Browse categories — then add lines to your request list below.</p>
+        </header>
+        <div class="cat-grid">
+          <a class="cat-card" href="#products" data-jump-cat="tools">
+            <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=300&q=70" alt="" />
+            <div>
+              <h3 data-i18n="cat1Title">Power Tools</h3>
+              <p data-i18n="cat1Desc">Drills, saws and jobsite tools</p>
+            </div>
+            <span class="cat-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="cat-card" href="#products" data-jump-cat="electrical">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=300&q=70" alt="" />
+            <div>
+              <h3 data-i18n="cat2Title">Electrical Supplies</h3>
+              <p data-i18n="cat2Desc">Breakers, switches and panel parts</p>
+            </div>
+            <span class="cat-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="cat-card" href="#products" data-jump-cat="lighting">
+            <img src="https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?auto=format&fit=crop&w=300&q=70" alt="" />
+            <div>
+              <h3 data-i18n="cat3Title">Lighting Solutions</h3>
+              <p data-i18n="cat3Desc">Floodlights, lamps and fixtures</p>
+            </div>
+            <span class="cat-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="cat-card" href="#products" data-jump-cat="safety">
+            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=300&q=70" alt="" />
+            <div>
+              <h3 data-i18n="cat4Title">Safety Equipment</h3>
+              <p data-i18n="cat4Desc">PPE, vests, hats and extinguishers</p>
+            </div>
+            <span class="cat-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="cat-card" href="#products" data-jump-cat="electrical">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=300&q=70" alt="" />
+            <div>
+              <h3 data-i18n="cat5Title">Cables &amp; Wiring</h3>
+              <p data-i18n="cat5Desc">Copper cable for house and site</p>
+            </div>
+            <span class="cat-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="cat-card" href="#products" data-jump-cat="industrial">
+            <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=300&q=70" alt="" />
+            <div>
+              <h3 data-i18n="cat6Title">Generators &amp; Equipment</h3>
+              <p data-i18n="cat6Desc">Power, welding and workshop gear</p>
+            </div>
+            <span class="cat-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT DESK / RFQ -->
+    <section class="section" id="products">
+      <div class="shell">
+        <header class="section-head catalog-head">
+          <div>
+            <span class="section-kicker" data-i18n="pageProdTitle">Products</span>
+            <h2 data-i18n="pageProdLead">Add lines to a request list. We confirm price and availability.</h2>
+          </div>
+          <div class="catalog-tools">
+            <label class="search-wrap">
+              <span class="visually-hidden" data-i18n="searchLabel">Search</span>
+              <input type="search" id="productSearch" data-i18n-placeholder="searchPlaceholder" placeholder="Search products or brands…" />
+            </label>
+            <button type="button" class="btn btn-orange btn-sm" id="cartOpen">
+              <span data-i18n="navList">Request list</span>
+              <span class="cart-badge" id="cartBadge" hidden>0</span>
+            </button>
+          </div>
         </header>
 
-        <div class="filter-row" id="filterRow" data-reveal role="tablist" aria-label="Categories">
+        <div class="filter-row" id="filterRow" role="tablist">
           <button type="button" class="filter is-active" data-filter="all" data-i18n="filterAll">All</button>
           <button type="button" class="filter" data-filter="electrical" data-i18n="catElectrical">Electrical</button>
           <button type="button" class="filter" data-filter="tools" data-i18n="catTools">Power tools</button>
@@ -150,152 +250,132 @@
           <button type="button" class="filter" data-filter="construction" data-i18n="catBuild">Construction</button>
         </div>
 
-        <div class="product-grid" id="productGrid"></div>
-        <p class="catalog-empty" id="catalogEmpty" hidden data-i18n="catalogEmpty">Nothing matches — try another search.</p>
+        <p class="result-count" id="resultCount"></p>
+        <div class="product-wrap" id="productWrap">
+          <div class="product-grid" id="productGrid"></div>
+        </div>
+        <div class="catalog-more" id="catalogMore" hidden>
+          <button type="button" class="btn btn-ghost" id="showMoreBtn" data-i18n="showMore">View more products</button>
+        </div>
+        <p class="catalog-empty" id="catalogEmpty" hidden data-i18n="catalogEmpty">No products match your search.</p>
       </div>
     </section>
 
     <!-- BRANDS -->
-    <section class="section brands" id="brands">
+    <section class="brands-strip" id="brands">
       <div class="shell">
-        <header class="section-head" data-reveal>
-          <p class="section-kicker" data-i18n="brandsKicker">Trusted names</p>
-          <h2 data-i18n="brandsTitle">Brands on the shelf</h2>
-          <p data-i18n="brandsSub">Specify them on drawings — we stock the lines contractors already trust.</p>
-        </header>
-        <ul class="brand-row" data-reveal>
-          <li class="brand-mark"><span>Philips</span></li>
-          <li class="brand-mark"><span>Legrand</span></li>
-          <li class="brand-mark"><span>ABB</span></li>
-          <li class="brand-mark"><span>OSRAM</span></li>
-          <li class="brand-mark"><span>CHINT</span></li>
+        <h2 data-i18n="brandsHomeTitle">Top Brands We Supply</h2>
+        <ul class="brand-logos">
+          <li>PHILIPS</li>
+          <li>legrand</li>
+          <li>ABB</li>
+          <li>OSRAM</li>
+          <li>CHINT</li>
         </ul>
       </div>
     </section>
 
-    <!-- VISIT -->
-    <section class="section visit" id="visit">
-      <div class="shell visit-grid">
-        <div class="visit-copy" data-reveal>
-          <p class="section-kicker" data-i18n="visitKicker">Walk-in ready</p>
-          <h2 data-i18n="visitTitle">Find Kalon</h2>
-          <p data-i18n="visitSub">Worku Abeba Building, Sengatera — 2nd floor. Bring your list or send it ahead on WhatsApp.</p>
-
-          <address class="visit-address">
-            <span class="pin" aria-hidden="true"></span>
-            <span data-i18n="address">Sengatera · Worku Abeba Building · 2nd floor</span>
-          </address>
-
-          <div class="hours-block">
-            <p class="hours-label" data-i18n="hoursLabel">Hours</p>
-            <p data-i18n="hoursValue">Mon–Sat · 8:30 – 18:00 · Large lists: send ahead</p>
-          </div>
-
-          <ul class="phone-list">
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="shell contact-grid">
+        <div>
+          <span class="section-kicker" data-i18n="contactEyebrow">Get in touch</span>
+          <h2 style="font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;color:var(--navy);letter-spacing:-0.03em;margin-bottom:0.75rem" data-i18n="pageContactTitle">Contact</h2>
+          <p style="color:var(--muted);max-width:40ch;margin-bottom:0.5rem" data-i18n="pageContactLead">Call the shop or send a stock request. We confirm price, availability and pickup.</p>
+          <ul class="contact-details">
             <li>
-              <a href="tel:+251911653468">
-                <span class="phone-label" data-i18n="phoneLabel">Line 1</span>
-                <span class="phone-num">+251 911 65 34 68</span>
-              </a>
+              <span data-i18n="contactPhoneLabel">Phone</span>
+              <a href="tel:+251911653468">+251 911 65 34 68</a>
+              <a href="tel:+251921941111">+251 921 94 11 11</a>
             </li>
             <li>
-              <a href="tel:+251921941111">
-                <span class="phone-label" data-i18n="phoneLabel">Line 2</span>
-                <span class="phone-num">+251 921 94 11 11</span>
-              </a>
+              <span data-i18n="contactAddressLabel">Address</span>
+              <p data-i18n="address">SengaTera · Worku Abeba Building · 2nd floor</p>
+            </li>
+            <li>
+              <span data-i18n="hoursLabel">Hours</span>
+              <p data-i18n="hoursValue">Mon–Sat · 8:30 – 18:00</p>
             </li>
           </ul>
-
-          <div class="visit-cta">
-            <a class="btn btn-orange btn-lg" href="https://wa.me/251911653468" target="_blank" rel="noopener noreferrer" data-i18n="ctaWa">WhatsApp shop</a>
-            <a class="btn btn-ghost btn-lg" href="https://maps.google.com/?q=Sengatera+Worku+Abeba+Building+Addis+Ababa" target="_blank" rel="noopener noreferrer" data-i18n="ctaMap">Maps</a>
+          <div class="contact-actions">
+            <a class="btn btn-orange btn-lg" href="https://wa.me/251911653468" target="_blank" rel="noopener noreferrer" data-i18n="ctaWa">WhatsApp</a>
+            <a class="btn btn-outline btn-lg" href="https://maps.google.com/?q=Sengatera+Worku+Abeba+Building+Addis+Ababa" target="_blank" rel="noopener noreferrer" data-i18n="ctaMap">Open map</a>
           </div>
         </div>
-
-        <aside class="visit-panel" data-reveal>
-          <p class="panel-city">Addis Ababa</p>
-          <p class="panel-place" data-i18n="panelPlace">Sengatera</p>
-          <p class="panel-floor" data-i18n="panelFloor">2nd floor</p>
-          <p class="panel-note" data-i18n="panelNote">Cables · breakers · tools · safety · lighting — ask for Kalon Engineering &amp; Trading.</p>
-        </aside>
+        <form class="contact-form" id="quoteForm" novalidate>
+          <h3 data-i18n="formTitle">Quick stock request</h3>
+          <label><span data-i18n="formName">Name</span><input name="name" required autocomplete="name" /></label>
+          <label><span data-i18n="formPhone">Phone</span><input name="phone" type="tel" required autocomplete="tel" placeholder="+251 9…" /></label>
+          <label><span data-i18n="formNeed">What do you need?</span><textarea name="need" rows="4" required data-i18n-placeholder="formNeedPh" placeholder="e.g. 200m cable, 10 breakers, 4 hard hats…"></textarea></label>
+          <button type="submit" class="btn btn-orange btn-block" data-i18n="formSubmit">Send on WhatsApp</button>
+          <p class="form-note" data-i18n="formNote">Opens WhatsApp with your message ready to send.</p>
+        </form>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="shell footer-inner">
-      <div class="footer-brand">
-        <span class="logo-mark">K</span>
-        <div>
-          <span class="logo-kalon" data-i18n="brandName">Kalon</span>
-          <p data-i18n="footerLegal">Engineering &amp; Trading PLC</p>
+    <div class="shell">
+      <div class="footer-inner">
+        <div class="footer-brand brand">
+          <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#fff" d="M24 4c-6 8-14 10-18 12 8 2 14 8 18 16 4-8 10-14 18-16-4-2-12-4-18-12z" opacity=".9"/>
+            <path fill="#ff6600" d="M24 14c-4 5-9 7-12 8 5 1 9 5 12 11 3-6 7-10 12-11-3-1-8-3-12-8z"/>
+          </svg>
+          <span class="brand-text">
+            <span class="brand-name" data-i18n="brandName">Kalon</span>
+            <span class="brand-sub" data-i18n="logoSub">Engineering &amp; Trading PLC</span>
+          </span>
         </div>
+        <div class="footer-meta">
+          <p><a href="tel:+251911653468">+251 911 65 34 68</a> · <a href="tel:+251921941111">+251 921 94 11 11</a></p>
+          <p data-i18n="topAddress">SengaTera, Worku Abeba Building, 2nd Floor</p>
+        </div>
+        <p class="footer-tag" data-i18n="footerTag">Your Partner in Engineering and Electrical Solutions</p>
       </div>
-      <p class="footer-meta" data-i18n="footerMeta">© <span id="year"></span> · Addis Ababa, Ethiopia</p>
+      <p class="footer-copy" data-i18n="footerLegal">© <span id="year"></span> Kalon Engineering &amp; Trading PLC · Addis Ababa</p>
     </div>
   </footer>
 
-  <!-- Floating list FAB -->
-  <button type="button" class="fab" id="fab" aria-controls="orderDrawer">
-    <span class="fab-icon" aria-hidden="true"></span>
-    <span class="fab-label" data-i18n="fabLabel">My list</span>
-    <span class="fab-badge" id="fabBadge" hidden>0</span>
-  </button>
-
-  <!-- Order drawer -->
+  <!-- Request drawer -->
   <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
-  <aside class="order-drawer" id="orderDrawer" aria-hidden="true" aria-labelledby="orderTitle">
+  <aside class="order-drawer" id="orderDrawer" aria-hidden="true">
     <header class="drawer-head">
-      <div>
-        <p class="drawer-kicker" data-i18n="orderKicker">Stock request</p>
-        <h2 id="orderTitle" data-i18n="orderTitle">Your list</h2>
-      </div>
+      <h2 data-i18n="orderTitle">Request list</h2>
       <button type="button" class="drawer-close" id="cartClose" aria-label="Close">&times;</button>
     </header>
-
     <div class="drawer-body" id="drawerBody">
       <ul class="order-lines" id="orderLines"></ul>
-      <p class="order-empty" id="orderEmpty" data-i18n="orderEmpty">List is empty — add items from the catalog.</p>
-
+      <p class="order-empty" id="orderEmpty" data-i18n="orderEmpty">No items yet — add products above.</p>
       <form class="order-form" id="orderForm" novalidate>
-        <p class="form-lead" data-i18n="orderLead">We’ll confirm price &amp; stock. You get a request ID.</p>
-        <label>
-          <span data-i18n="formName">Your name</span>
-          <input name="name" required autocomplete="name" data-i18n-placeholder="formNamePh" placeholder="Name / company" />
-        </label>
-        <label>
-          <span data-i18n="formPhone">Phone</span>
-          <input name="phone" type="tel" required autocomplete="tel" placeholder="+251 9…" />
-        </label>
-        <label>
-          <span data-i18n="formNote">Note</span>
-          <textarea name="note" rows="2" data-i18n-placeholder="formNotePh" placeholder="Pickup time, site name…"></textarea>
-        </label>
-        <button type="submit" class="btn btn-orange btn-lg btn-block" data-i18n="orderSubmit">Send request</button>
-        <button type="button" class="btn btn-ghost btn-lg btn-block" id="orderCall" data-i18n="orderCall">Or call to confirm</button>
+        <p class="form-lead" data-i18n="orderLead">We confirm price &amp; stock. You receive a request ID.</p>
+        <label><span data-i18n="formName">Name</span><input name="name" required autocomplete="name" /></label>
+        <label><span data-i18n="formPhone">Phone</span><input name="phone" type="tel" required autocomplete="tel" /></label>
+        <label><span data-i18n="formNoteLabel">Note</span><textarea name="note" rows="2" data-i18n-placeholder="formNotePh" placeholder="Pickup time…"></textarea></label>
+        <button type="submit" class="btn btn-orange btn-block" data-i18n="orderSubmit">Send request</button>
+        <button type="button" class="btn btn-ghost btn-block" id="orderCall" data-i18n="orderCall">Call instead</button>
       </form>
     </div>
-
-    <!-- Confirmation panel -->
     <div class="confirm-panel" id="confirmPanel" hidden>
-      <div class="confirm-check" aria-hidden="true">✓</div>
-      <h2 data-i18n="confirmTitle">Request sent</h2>
-      <p class="confirm-id-label" data-i18n="confirmIdLabel">Your request ID</p>
+      <p class="confirm-id-label" data-i18n="confirmIdLabel">Request ID</p>
       <p class="confirm-id" id="confirmId">K—</p>
-      <p class="confirm-copy" data-i18n="confirmCopy">WhatsApp opened with your list. Kalon will reply with price, availability, and pickup.</p>
-      <button type="button" class="btn btn-orange btn-lg btn-block" id="confirmClose" data-i18n="confirmDone">Done</button>
-      <button type="button" class="btn btn-ghost btn-lg btn-block" id="confirmAgain" data-i18n="confirmAgain">Build another list</button>
+      <h2 data-i18n="confirmTitle">Request ready</h2>
+      <p class="confirm-copy" data-i18n="confirmCopy">WhatsApp opened with your list. Kalon will confirm price and pickup.</p>
+      <button type="button" class="btn btn-orange btn-block" id="confirmClose" data-i18n="confirmDone">Close</button>
+      <button type="button" class="btn btn-ghost btn-block" id="confirmAgain" data-i18n="confirmAgain">New list</button>
     </div>
   </aside>
 
-  <div class="sticky-bar" role="region" aria-label="Quick actions">
-    <button type="button" id="stickyOrder"><span data-i18n="stickyList">My list</span> <span class="sticky-count" id="stickyCount"></span></button>
+  <button type="button" class="fab" id="fab">
+    <span data-i18n="fabLabel">Request list</span>
+    <span class="fab-badge" id="fabBadge" hidden>0</span>
+  </button>
+  <div class="sticky-bar">
+    <button type="button" id="stickyOrder"><span data-i18n="stickyList">List</span> <span id="stickyCount"></span></button>
     <a href="https://wa.me/251911653468" target="_blank" rel="noopener noreferrer" data-i18n="stickyWa">WhatsApp</a>
     <a href="tel:+251911653468" data-i18n="stickyCall">Call</a>
   </div>
-
   <div class="toast" id="toast" hidden role="status"></div>
-
   <script src="js/main.js"></script>
 </body>
 </html>
