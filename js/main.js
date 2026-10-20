@@ -26,8 +26,8 @@
 
   const strings = {
     en: {
-      brandName: "Kalon",
-      logoSub: "Engineering & Trading PLC",
+      brandName: "Mikiyas",
+      logoSub: "Engineering & Trading",
       navHome: "Home",
       navProducts: "Products",
       navBrands: "Brands",
@@ -66,7 +66,7 @@
       cat6Desc: "Power, welding and workshop gear",
       brandsHomeTitle: "Top Brands We Supply",
       footerTag: "Your Partner in Engineering and Electrical Solutions",
-      footerLegal: "© {y} Kalon Engineering & Trading PLC · Addis Ababa",
+      footerLegal: "© {y} Mikiyas Engineering & Trading · Addis Ababa",
       pageProdTitle: "Products",
       pageProdLead: "Add lines to a request list. We confirm price and availability — no fake checkout.",
       pageBrandsTitle: "Brands",
@@ -95,7 +95,7 @@
       addBtn: "Add to list",
       addedBtn: "Added",
       priceAsk: "Ask for price",
-      aboutP1: "Kalon Engineering & Trading PLC supplies electrical materials, power tools, safety gear, lighting and industrial equipment to contractors, workshops and project teams in Addis Ababa.",
+      aboutP1: "Mikiyas Engineering & Trading supplies electrical materials, power tools, safety gear, lighting and industrial equipment to contractors, workshops and project teams in Addis Ababa.",
       aboutP2: "From Sengatera we help you specify trusted brands and confirm stock before you travel — so pickup is faster and fewer trips are wasted.",
       aboutPoint1: "Electrical materials & accessories",
       aboutPoint2: "Power tools & site equipment",
@@ -110,7 +110,6 @@
       brand4Desc: "Lamps and tubes for replacement stock and continuous supply.",
       brand5Title: "CHINT",
       brand5Desc: "Circuit breakers and modular protection for panels.",
-      contactNameLabel: "Contact",
       contactPhoneLabel: "Phone",
       contactAddressLabel: "Address",
       address: "SengaTera · Worku Abeba Building · 2nd floor",
@@ -134,7 +133,7 @@
       orderCall: "Call instead",
       confirmIdLabel: "Request ID",
       confirmTitle: "Request ready",
-      confirmCopy: "WhatsApp opened with your list. Kalon will confirm price and pickup.",
+      confirmCopy: "WhatsApp opened with your list. Mikiyas will confirm price and pickup.",
       confirmDone: "Close",
       confirmAgain: "New list",
       fabLabel: "Request list",
@@ -146,8 +145,8 @@
       langLabel: "አማ",
     },
     am: {
-      brandName: "ካሎን",
-      logoSub: "ኢንጂነሪንግ እና ትሬዲንግ ኃ.የተ.የግ.ማ",
+      brandName: "ሚኪያስ",
+      logoSub: "ኢንጂነሪንግ እና ትሬዲንግ",
       navHome: "መነሻ",
       navProducts: "ምርቶች",
       navBrands: "ብራንዶች",
@@ -186,7 +185,7 @@
       cat6Desc: "ኃይል፣ ብየዳ እና ወርክሾፕ",
       brandsHomeTitle: "የምናቀርባቸው ብራንዶች",
       footerTag: "በኢንጂነሪንግ እና ኤሌክትሪክ መፍትሄዎች አጋርዎ",
-      footerLegal: "© {y} ካሎን ኢንጂነሪንግ እና ትሬዲንግ · አዲስ አበባ",
+      footerLegal: "© {y} ሚኪያስ ኢንጂነሪንግ እና ትሬዲንግ · አዲስ አበባ",
       pageProdTitle: "ምርቶች",
       pageProdLead: "ወደ የጥያቄ ዝርዝር ይጨምሩ። ዋጋ እና መገኘት እናረጋግጣለን።",
       pageBrandsTitle: "ብራንዶች",
@@ -215,7 +214,7 @@
       addBtn: "ወደ ዝርዝር ጨምር",
       addedBtn: "ተጨምሯል",
       priceAsk: "ዋጋ ይጠይቁ",
-      aboutP1: "ካሎን ኢንጂነሪንግ እና ትሬዲንግ ኃ.የተ.የግ.ማ ለኮንትራክተሮች፣ ወርክሾፖች እና ፕሮጀክት ቡድኖች የኤሌክትሪክ ቁሳቁስ፣ መሳሪያ፣ ደህንነት፣ መብራት እና ኢንዱስትሪያል እቃ ያቀርባል።",
+      aboutP1: "ሚኪያስ ኢንጂነሪንግ እና ትሬዲንግ ለኮንትራክተሮች፣ ወርክሾፖች እና ፕሮጀክት ቡድኖች የኤሌክትሪክ ቁሳቁስ፣ መሳሪያ፣ ደህንነት፣ መብራት እና ኢንዱስትሪያል እቃ ያቀርባል።",
       aboutP2: "ከሰንጋተራ ታማኝ ብራንዶችን ለመምረጥ እና ከመጓዝዎ በፊት እቃን ለማረጋገጥ እንረዳለን።",
       aboutPoint1: "የኤሌክትሪክ ቁሳቁሶች",
       aboutPoint2: "የኃይል መሳሪያዎች",
@@ -230,7 +229,6 @@
       brand4Desc: "መብራቶች እና ቱቦዎች ለቀጣይ አቅርቦት።",
       brand5Title: "CHINT",
       brand5Desc: "የወረዳ ብሬከሮች እና የፓነል ጥበቃ።",
-      contactNameLabel: "አግኙ",
       contactPhoneLabel: "ስልክ",
       contactAddressLabel: "አድራሻ",
       address: "ሰንጋተራ · ወርቁ አበባ ሕንፃ · 2ኛ ፎቅ",
@@ -498,7 +496,7 @@
       return `• ${p.name[lang]} × ${cart[id]}`;
     });
     return [
-      lang === "am" ? "ሰላም ካሎን — የእቃ ጥያቄ፡" : "Hello Kalon — stock request:",
+      lang === "am" ? "ሰላም ሚኪያስ — የእቃ ጥያቄ፡" : "Hello Mikiyas — stock request:",
       "",
       ...lines,
       extra ? `\n${extra}` : "",
@@ -638,7 +636,7 @@
     if (!name || !phone || !need) return;
     const id = requestId();
     const body = [
-      lang === "am" ? "ሰላም ካሎን — የእቃ ጥያቄ፡" : "Hello Kalon — stock request:",
+      lang === "am" ? "ሰላም ሚኪያስ — የእቃ ጥያቄ፡" : "Hello Mikiyas — stock request:",
       "", need, "",
       lang === "am" ? `ስም: ${name}` : `Name: ${name}`,
       lang === "am" ? `ስልክ: ${phone}` : `Phone: ${phone}`,
