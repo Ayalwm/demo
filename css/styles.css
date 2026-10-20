@@ -80,6 +80,7 @@ img { max-width: 100%; display: block; }
   display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.65rem;
 }
 .topbar-sep { opacity: 0.35; }
+.topbar-name { color: #fff; font-weight: 700; }
 .topbar svg { flex: 0 0 auto; color: var(--orange); }
 .icon-btn {
   display: grid; place-items: center; width: 40px; height: 40px;

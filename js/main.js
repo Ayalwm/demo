@@ -1,5 +1,5 @@
 (() => {
-  const WA_NUMBER = "251911653468";
+  const WA_NUMBER = "251938029421";
   const PAGE_SIZE = 6;
   const hasCatalog = !!document.getElementById("productGrid");
 
@@ -110,6 +110,7 @@
       brand4Desc: "Lamps and tubes for replacement stock and continuous supply.",
       brand5Title: "CHINT",
       brand5Desc: "Circuit breakers and modular protection for panels.",
+      contactNameLabel: "Contact",
       contactPhoneLabel: "Phone",
       contactAddressLabel: "Address",
       address: "SengaTera · Worku Abeba Building · 2nd floor",
@@ -229,6 +230,7 @@
       brand4Desc: "መብራቶች እና ቱቦዎች ለቀጣይ አቅርቦት።",
       brand5Title: "CHINT",
       brand5Desc: "የወረዳ ብሬከሮች እና የፓነል ጥበቃ።",
+      contactNameLabel: "አግኙ",
       contactPhoneLabel: "ስልክ",
       contactAddressLabel: "አድራሻ",
       address: "ሰንጋተራ · ወርቁ አበባ ሕንፃ · 2ኛ ፎቅ",
@@ -601,7 +603,7 @@
       $("#drawerBody").hidden = false;
     });
     $("#orderCall")?.addEventListener("click", () => {
-      window.location.href = "tel:+251911653468";
+      window.location.href = "tel:+251938029421";
     });
 
     $("#orderForm")?.addEventListener("submit", (e) => {
